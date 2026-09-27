@@ -1,0 +1,33 @@
+========== AWS IAM SECURITY AUDIT REPORT ==========
+Date: 27-Sept-2026
+Auditor: Shraddha Malvi
+Account ID: [Your Account ID]
+
+[CHECK 1] Root Account MFA
+Status: PASS ✅ - MFA Enabled
+
+[CHECK 2] Password Policy
+- Minimum Length: 14
+- Requires Uppercase: Yes
+- Requires Numbers: Yes
+- Requires Symbols: Yes
+- Password Expiry: 90 Days
+Status: PASS ✅
+
+[CHECK 3] IAM Users with Admin Access
+Found: 0 Users with AdministratorAccess
+Status: PASS ✅ - Following Least Privilege
+
+[CHECK 4] Unused Access Keys (>90 Days)
+Found: 0 Old Keys
+Status: PASS ✅ - All Keys Rotated
+
+[CHECK 5] S3 Buckets Public Access
+Bucket: shraddha-cloudtrail-logs-2026
+Block Public Access: ON ✅
+Encryption: ON ✅
+
+[CHECK 6] CloudTrail Logging
+Status: ENABLED ✅ - Logging in S3
+
+Overall Security Score: 100% SECURE
