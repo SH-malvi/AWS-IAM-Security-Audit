@@ -8,4 +8,4 @@ To secure AWS account by implementing IAM security best practices.
 2. Enforced MFA for both users
 
 ### Proof
-![MFA Proof](./mfa-proof.png)
+![MFA Proof](./Screenshot_20260927-110730.png)
